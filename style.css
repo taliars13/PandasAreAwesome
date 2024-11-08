@@ -1,0 +1,151 @@
+#nav{
+    list-style-type: none;
+    margin: -10;
+    padding-top: 20; 
+    padding-bottom: 20;
+    padding-left: 0; 
+    background-color: #a6a6a6ea;
+
+}
+.navbutton{
+    display: block;
+    padding: 20px;
+    margin: 0px; 
+    display: inline;
+    text-decoration: none;
+    color: black; 
+
+}
+.link{
+    display: inline;
+    
+}
+.navbutton:hover{
+    background-color: rgb(91, 91, 91); 
+}
+body{
+    background-color: rgb(32, 32, 32);
+    font-family:Arial, Helvetica, sans-serif
+}
+#pandaheading h1{
+    color: white; 
+    text-align: center; 
+    text-shadow: 0 0 10px #000000;
+}
+#pandaheading{
+    background-image: url("https://static01.nyt.com/images/2024/02/22/multimedia/22xp-pandas-01-fpzb/22xp-pandas-01-fpzb-superJumbo.jpg");
+    height: 425px;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    line-height: 300px;  
+    font-size: 50px; 
+    margin-top: -50px;
+}
+#pandachange{
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border: none; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+#pandachange:hover{
+    background-color: grey;
+}
+#funfacts{
+    float:left; 
+    width: 50%; 
+    color: white;
+    background-color: grey; 
+    border-radius: 25px; 
+    margin-top: 25px; 
+}
+#funfacts h3{
+    text-align: center; 
+}
+#funfacts li{
+    margin-bottom: 10px; 
+}
+div.scrollpanda {
+    background-color: rgb(32, 32, 32);
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    float:right; 
+    width: 47%;   
+
+  }
+  div.scrollpanda img {
+    padding: 10px;
+    height:400px;
+    width:auto;
+    
+  }
+  #aboutmeheading{
+    background-color:white;
+    padding: 20px; 
+    margin-left:-10px;
+    margin-right:-10px;
+    margin-top:10px;
+  }
+  #aboutmeheading h1{
+    color: black;
+    text-align:center;
+    font-size:50; 
+
+  }
+#aboutme{
+    background-color: lightslategray;
+    text-align: center;
+    padding-bottom: 2%;
+    margin: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 1000%;
+    margin-left: 30%; 
+
+
+
+}
+#aboutme p{
+    color: white;
+    font-size:30px; 
+}
+#contact{
+    color:black;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 20px; 
+
+}
+#incontact{
+    margin: 30px; 
+    
+}
+#mepic{
+    float:left; 
+    width:20%;
+    margin-left: 5%; 
+    margin-top: -10px;
+}
+#picandimg{
+    display: block;
+}
+#footer{
+    background-color: rgb(55, 55, 55);
+    padding: 20px;
+    float:none; 
+    clear:both;
+    color: white;
+}
+#totop{
+    float: right;
+    margin-top: -15px;
+    border: none; 
+    cursor: pointer;
+    border-radius: 5px; 
+}
+#totop:hover{
+    background-color: grey;
+}
